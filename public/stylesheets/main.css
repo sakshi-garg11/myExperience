@@ -1,0 +1,43 @@
+.thumbnail img{
+    width: 100%;
+  }
+
+.thumbnail .great{
+    height: 200px;
+}
+
+.thumbnail{
+    padding: 0;
+  }
+
+.thumbnail .caption-full{
+    padding: 9px;
+  }
+  
+ 
+  
+
+#delete-form{
+    display: inline;
+  }
+
+.glyphicon{
+    font-size: 30px;
+  }
+  
+  .jumbotron{
+      background-image: url(http://www.mapmyindia.com/realview/img/s3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: 0 6px 15px 10px white inset;
+     /*background-color: #A3E1D9;*/
+  }
+  
+ .trans{
+    background:rgba(200,200,200, 0.7);
+    
+}
+  
+ #watever{
+     background-color: #FD9727;
+ }
