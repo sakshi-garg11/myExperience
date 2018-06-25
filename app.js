@@ -16,7 +16,12 @@ var commentRoutes =  require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes =   require("./routes/index");
 
-mongoose.connect("mongodb://localhost/camp",{useMongoClient: true});
+
+//"mongodb://localhost/camp",{useMongoClient: true}
+mongoose.connect("mongodb://sakshi:sakshi11@ds217671.mlab.com:17671/myxperience");
+
+// mongodb://sakshi:sakshi11@ds217671.mlab.com:17671/myxperience
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 
