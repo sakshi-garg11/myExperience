@@ -20,8 +20,8 @@ var upload = multer({ storage: storage, fileFilter: imageFilter})
 var cloudinary = require('cloudinary');
 cloudinary.config({ 
   cloud_name: 'dveafcsns', 
-  api_key: "566189454445684", 
-  api_secret: "K7Dj_egYUYo0_0Wji3nJf4f_xgo"
+  api_key: process.env.CLOUDINARY_API_KEY, 
+  api_secret: process.env.CLOUDINARY_API_SECRET
 });
 
 //INDEX-show all campgrounds
